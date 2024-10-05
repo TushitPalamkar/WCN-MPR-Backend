@@ -1,0 +1,205 @@
+[
+    {
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "price": 499.00,
+        "image": "https://m.media-amazon.com/images/I/71+vQyk44IL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "Guns, Germs, and Steel: The Fates of Human Societies",
+        "author": "Jared Diamond",
+        "price": 999.00,
+        "image": "https://m.media-amazon.com/images/I/71+oze+AjvL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Diary of a Young Girl",
+        "author": "Anne Frank",
+        "price": 699.00,
+        "image": "https://m.media-amazon.com/images/I/81xPFVVGesL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "A People's History of the United States",
+        "author": "Howard Zinn",
+        "price": 199.00,
+        "image": "https://m.media-amazon.com/images/I/51VFUx3b+9L._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The History of the Ancient World: From the Earliest Accounts to the Fall of Rome",
+        "author": "Susan Wise Bauer",
+        "price": 799.00,
+        "image": "https://m.media-amazon.com/images/I/91KiL+u72zL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Silk Roads: A New History of the World",
+        "author": "Peter Frankopan",
+        "price": 899.00,
+        "image": "https://m.media-amazon.com/images/I/91zU70Aw6ML._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Rise and Fall of the Third Reich: A History of Nazi Germany",
+        "author": "William L. Shirer",
+        "price": 499.00,
+        "image": "https://m.media-amazon.com/images/I/81oSTjYxb7L._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Histories",
+        "author": "Herodotus",
+        "price": 899.00,
+        "image": "https://m.media-amazon.com/images/I/71c+1UvP3AL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Second World War",
+        "author": "Winston S. Churchill",
+        "price": 999.00,
+        "image": "https://m.media-amazon.com/images/I/51jHbI5OTjL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The History of the Peloponnesian War",
+        "author": "Thucydides",
+        "price": 399.00,
+        "image": "https://m.media-amazon.com/images/I/71ry6UoHFVL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "A Short History of Nearly Everything",
+        "author": "Bill Bryson",
+        "price": 999.00,
+        "image": "https://m.media-amazon.com/images/I/71Ht2-iXYjL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Immortal Life of Henrietta Lacks",
+        "author": "Rebecca Skloot",
+        "price": 399.00,
+        "image": "https://m.media-amazon.com/images/I/71ZPTD1XDTL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "Bury My Heart at Wounded Knee",
+        "author": "Dee Brown",
+        "price": 299.00,
+        "image": "https://m.media-amazon.com/images/I/81nOtYNJXZL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "1776",
+        "author": "David McCullough",
+        "price": 599.00,
+        "image": "https://m.media-amazon.com/images/I/81YOwLbCgOL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "A History of Ancient Egypt",
+        "author": "James Henry Breasted",
+        "price": 799.00,
+        "image": "https://m.media-amazon.com/images/I/71Ht2-iXYjL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Civil War: A Narrative",
+        "author": "Shelby Foote",
+        "price": 499.00,
+        "image": "https://m.media-amazon.com/images/I/91Ug8tRsieL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Great War: A Combat History of the First World War",
+        "author": "Peter Hart",
+        "price": 899.00,
+        "image": "https://m.media-amazon.com/images/I/81ot9KeRJDL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The History of the Crusades",
+        "author": "Steven Runciman",
+        "price": 199.00,
+        "image": "https://m.media-amazon.com/images/I/71ry6UoHFVL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The American Revolution: A History",
+        "author": "Gordon S. Wood",
+        "price": 399.00,
+        "image": "https://m.media-amazon.com/images/I/81BSO6E9K9L._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Holocaust: A New History",
+        "author": "Laurence Rees",
+        "price": 799.00,
+        "image": "https://m.media-amazon.com/images/I/71ry6UoHFVL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The History of Rome",
+        "author": "Titus Livius",
+        "price": 499.00,
+        "image": "https://m.media-amazon.com/images/I/71c+1UvP3AL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Age of Revolution: Europe 1789-1848",
+        "author": "Eric Hobsbawm",
+        "price": 999.00,
+        "image": "https://m.media-amazon.com/images/I/71ry6UoHFVL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Origins of the Second World War",
+        "author": "A.J.P. Taylor",
+        "price": 399.00,
+        "image": "https://m.media-amazon.com/images/I/71ry6UoHFVL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "Postwar: A History of Europe Since 1945",
+        "author": "Tony Judt",
+        "price": 499.00,
+        "image": "https://m.media-amazon.com/images/I/81BSO6E9K9L._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Battle for History",
+        "author": "John Keegan",
+        "price": 999.00,
+        "image": "https://m.media-amazon.com/images/I/71ry6UoHFVL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The Age of Extremes: The Short Twentieth Century, 1914-1991",
+        "author": "Eric Hobsbawm",
+        "price": 199.00,
+        "image": "https://m.media-amazon.com/images/I/71ry6UoHFVL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The People's History of the New World",
+        "author": "Howard Zinn",
+        "price": 499.00,
+        "image": "https://m.media-amazon.com/images/I/51VFUx3b+9L._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The History of England: Volume 1: Foundation of England 410-1216",
+        "author": "David Hume",
+        "price": 899.00,
+        "image": "https://m.media-amazon.com/images/I/71ry6UoHFVL._AC_UY218_.jpg",
+        "genre": "History"
+    },
+    {
+        "title": "The History of the World",
+        "author": "J.M. Roberts",
+        "price": 999.00,
+        "image": "https://m.media-amazon.com/images/I/71ry6UoHFVL._AC_UY218_.jpg",
+        "genre": "History"
+    }
+]

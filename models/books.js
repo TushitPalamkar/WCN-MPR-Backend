@@ -13,7 +13,15 @@ const bookSchema = new mongoose.Schema({
     price:{
         type: Number,
         required: true,
-    }
+    },
+    image: {
+        type: String,
+        required: true,
+    },
+    genre: {
+        type: String,
+        required: true,
+    },
 })
 
 export const bookModel = mongoose.model("books", bookSchema)
