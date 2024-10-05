@@ -1,42 +1,42 @@
-import express from "express";
-import bcrypt, { hash } from 'bcrypt';
-import jwt from "jsonwebtoken";
-import { userModel } from "../models/users";
+import express from 'express';
+import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
+import { userModel } from '../models/users.js';
 
-const router = express.Router()
+const router = express.Router();
 
 router.post("/register", async (req, res) => {
-    const { username, password } = req.body
+    const { username, password } = req.body;
 
-    const user = await userModel.findOne({ username: username })
+    const user = await userModel.findOne({ username });
     if (user) {
-        return res.json({ message: "User already exists!!" })
+        return res.json({ message: "User already exists!!" });
     }
 
-    const hashedPassword = await bcrypt.hash(password, 10)
+    const hashedPassword = await bcrypt.hash(password, 10);
 
-    const newUser = new userModel({ username, password: hashedPassword })
-    await newUser.save()
+    const newUser = new userModel({ username, password: hashedPassword });
+    await newUser.save();
 
-    res.json({ message: "User registered successfully!" })
-})
+    res.json({ message: "User registered successfully!" });
+});
 
 router.post("/login", async (req, res) => {
-    const { username, password } = req.body
-    const user = await userModel.findOne({ username })
+    const { username, password } = req.body;
+    const user = await userModel.findOne({ username });
 
     if (!user) {
-        return res.json({ message: "User doesn't exist!" })
+        return res.json({ message: "User doesn't exist!" });
     }
-    
-    const isPasswordValid = await bcrypt.compare(password, user.password)
-    
+
+    const isPasswordValid = await bcrypt.compare(password, user.password);
+
     if (!isPasswordValid) {
-        return res.json({ message: "Username or password is incorrect" })
+        return res.json({ message: "Username or password is incorrect" });
     }
 
-    const token = jwt.sign({ id: user._id }, "secret")
-    res.json({ token, userID: user._id })
-})
+    const token = jwt.sign({ id: user._id }, "secret");
+    res.json({ token, userID: user._id });
+});
 
-export {router as userRouter}
+export { router as userRouter };
