@@ -30,9 +30,16 @@ router.post("/add", async (req, res) => {
     }
 });
 
-router.get("/:genre", async (req, res) => {
+router.get("/", async (req, res) => {
     try {
-        const books = await bookModel.find({ genre: req.params.genre });
+        const { genre } = req.query;
+        let query = {};
+
+        if (genre) {
+            query.genre = new RegExp(genre, 'i'); // 'i' flag for case-insensitive
+        }
+
+        const books = await bookModel.find(query);
         res.json(books);
     } catch (error) {
         res.status(500).json({ message: error.message });

@@ -10,9 +10,15 @@ const userSchema = new mongoose.Schema({
         type: String, 
         required: true
     },
-    savedbooks:[{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "books"
+    savedBooks:[{
+        book: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "books"
+        },
+        quantity: {
+            type: Number,
+            default: 1
+        }
     }],
 })
 
