@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     res.send("Hello World!!");
 });
 
-mongoose.connect("mongodb://localhost:27017/bookstore", {
+mongoose.connect("mongodb+srv://rounak:root@bookstore.ofo37.mongodb.net/", {
 }).then(() => {
     console.log("Connected to MongoDB");
 }).catch((error) => {
